@@ -11,7 +11,7 @@ class OrderController extends Controller
     // Get all orders
     public function index(Request $request)
     {
-        $user = $request->user(); // Ensure the user is authenticated
+        $user = $request->user(); 
 
         if (!$user) {
             return response()->json(['message' => 'Unauthorized'], 401);

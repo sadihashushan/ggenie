@@ -63,7 +63,7 @@
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
-                        "Accept": "application/json", // Force JSON response
+                        "Accept": "application/json", 
                         "X-CSRF-TOKEN": "{{ csrf_token() }}"
                     },
                     body: JSON.stringify({ email, password })
