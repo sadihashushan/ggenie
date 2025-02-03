@@ -1,7 +1,7 @@
 <div class="p-6 max-w-lg mx-auto bg-white shadow-md rounded-md my-10">
     <h2 class="text-xl font-bold text-gray-800 mb-4">Submit Your Review</h2>
     <form wire:submit.prevent="submitReview">
-]        <div class="mb-4">
+               <div class="mb-4">
             <label for="name" class="block text-sm font-medium text-gray-700">Name (Optional)</label>
             <input
                 type="text"
